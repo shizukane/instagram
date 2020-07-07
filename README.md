@@ -1,8 +1,6 @@
 
 ## The_Gram
 
-### Developed By
-[Gesare](https://github.com/Gesare)
 
 
 ## Description
@@ -51,6 +49,10 @@ virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate
 Install dependancies that will create an environment for the app to run
 `pip3 install -r requirements.txt`
 
+
+## Code Beat
+[![codebeat badge](https://codebeat.co/badges/ae83f2be-c6df-481d-8fa4-e84e3c790cbf)](https://codebeat.co/projects/github-com-shizukane-instagram-master)
+
 ### Create the Database
 ```bash
 psql
@@ -77,30 +79,8 @@ python3.6 manage.py runserver
 ```
 Open terminal on `localhost:8000`
 
-### Prerequisites
-
-1. Ubuntu Software
-2. Python3.6
-3. [Postgres](https://www.postgresql.org/download/)
-4. [python virtualenv](https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b)
 
 
-## Running the tests
-
-```bash
-python3.8 manage.py test collection
-
-```
-
-
-## Deploying to heroku
-Refer to this guide: [deploying to heroku](https://simpleisbetterthancomplex.com/tutorial/2016/08/09/how-to-deploy-django-
-
-Set the configuration to production mode
-
-## Live Demo
-
-The web app can be accessed from the following link: 
 
 ## Built With
 * Python
