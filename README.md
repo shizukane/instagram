@@ -94,7 +94,7 @@ python3.8 manage.py test collection
 
 
 ## Deploying to heroku
-Refer to this guide: [deploying to heroku](https://simpleisbetterthancomplex.com/tutorial/2016/08/09/how-to-deploy-django-ap
+Refer to this guide: [deploying to heroku](https://simpleisbetterthancomplex.com/tutorial/2016/08/09/how-to-deploy-django-a
 
 Set the configuration to production mode
 
