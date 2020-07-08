@@ -2,11 +2,12 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+import cloudinary
 from cloudinary.models import CloudinaryField
 
 
 class Profile(models.Model):
-    photo = CloudinaryField('image')
+    Profile = CloudinaryField('image', null=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile')
     profile_picture = models.ImageField(upload_to='images/', default='default.png')
     bio = models.TextField(max_length=500, default="My Bio", blank=True)

@@ -48,12 +48,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
 ]
+CLOUDINARY = {
+    'cloud_name': 'instadarolle',
+    'api_key': '768841961176773',
+    'api_secret': 'OHElhyUwCPGWN53I7G8oJHyu_ps',
+}
 
-cloudinary.config(
-    cloud_name = config('CLOUD_NAME'),
-    api_key = config('API_KEY'),
-    api_secret = config('API_SECRET'),
-)
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
